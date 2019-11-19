@@ -29,7 +29,7 @@ function App({ content, setContent }) {
     } catch {}
     var tmp = content;
     const l = path.length;
-    path.map((v, k) => {
+    path.forEach((v, k) => {
       if (k === l - 1) {
         tmp[v] = value;
         return;
