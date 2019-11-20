@@ -1,3 +1,3 @@
 export default {
-  SetContent: "SetContent"
+    SetValueByPath: "SetValueByPath"
 };

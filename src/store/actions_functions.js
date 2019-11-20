@@ -1,5 +1,6 @@
 import names from "./actions";
+
 export default {
-  [names.SetContent]: dispatch => content =>
-    dispatch({ type: names.SetContent, content })
+    [names.SetValueByPath]: dispatch => (path, value) =>
+        dispatch({type: names.SetValueByPath, path, value})
 };
